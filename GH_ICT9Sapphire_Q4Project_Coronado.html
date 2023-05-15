@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title>length conversion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css%22%3E ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<body class="container" style="background-color: #EFCFD4"><center><img src="https://i.pinimg.com/originals/54/0f/44/540f446bde0e667fb086b3870ae7ea39.png"width="90" heigh="80" allign="middle"></center>
+    <center><h5><i>Coronado, Angela Gwen</i></h5></center>
+    <center><h5><i>9 - Sapphire</i></h5></center>
+     <center><h2><i>!! millimeter converter !!</i></h2></center>
+    <center>
+    <h3 style=" color: #FF6962; font-family: Footlight MT Light">!! convert your measurements easily with me !!</h3>
+    </center>
+    <center>
+        <br>
+        <input type="text" id="id1"> <p style="color: black"> = </p> <p id= "id2"></p>
+        <br>
+    </center>
+    <center>
+    <div>
+        <button type="button" onclick="CFunction()" class="btn btn-outline-dark">Convert to Centimeters</button>
+        <button type="button" onclick="MFunction()" class="btn btn-outline-dark">Convert to Meters</button>
+        <button type="button" onclick="KFunction()" class="btn btn-outline-dark">Convert to Kilometers</button>
+    </center>
+    </div>
+        <br>
+        <script>
+            function CFunction() {
+                    var var1 = document.getElementById('id1').value;
+                    var CM = 10;
+                    var answer1 = var1 / CM
+                    document.getElementById('id2').innerHTML = answer1 + "cm";
+}
+</script>
+        <script>
+            function MFunction() {
+                    var var2 = document.getElementById('id1').value;
+                    var M = 1000;
+                    var answer2 = var2 / M
+                    document.getElementById('id2').innerHTML = answer2 + "m";
+                }
+        </script>
+        <script>
+            function KFunction() {
+                    var var3 =
+document.getElementById('id1').value;
+                    var KM = 1e+6;
+                    var answer3 = var3 / KM
+                    document.getElementById('id2').innerHTML = answer3 + "km";
+                }
+        </script>
+    </center>
+</body>
+</html>
+</body>
+</html>
